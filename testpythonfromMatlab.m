@@ -1,4 +1,7 @@
-%pyversion C:\Users\erdemli\AppData\Local\Programs\Python\Python39\python.exe
+
+% Make sure you have a Matlab compatible Python version. Right now Python
+% 3.9 is the lastest. Download it for all users. 
+pyversion % Check if Matlab finds Python. If this gives empty lines (e.g.'') , then do: pyversion insertmyPython.exePath
 
 system('python test.py') % This is for Matlab prior to 2021
 
